@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "culture-archetypes",
+  "info": {
+    "singularName": "culture-archetype",
+    "pluralName": "culture-archetypes",
+    "displayName": "Culture Archetype"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "canonical_name": {
+      "type": "string"
+    },
+    "individual_description": {
+      "type": "text"
+    },
+    "group_description": {
+      "type": "text"
+    },
+    "short_description": {
+      "type": "string"
+    }
+  }
+}
