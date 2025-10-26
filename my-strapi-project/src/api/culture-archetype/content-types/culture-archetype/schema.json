@@ -9,11 +9,7 @@
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": false
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "canonical_name": {
       "type": "string"
@@ -25,6 +21,9 @@
       "type": "text"
     },
     "short_description": {
+      "type": "string"
+    },
+    "image_slug": {
       "type": "string"
     }
   }
